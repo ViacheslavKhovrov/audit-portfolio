@@ -1,6 +1,6 @@
 # Smart Contract Security Audit Portfolio
 
-This repository contains my smart contract security audit reports for DeFi projects from Statemind public audits. Each report provides a detailed analysis of the smart contract implementations, identifying potential vulnerabilities, security concerns, and recommendations for improvements.
+This repository contains my smart contract security audit reports for DeFi projects from [Statemind public audits](https://github.com/statemindio/public-audits). Each report provides a detailed analysis of the smart contract implementations, identifying potential vulnerabilities, security concerns, and recommendations for improvements.
 
 ## Audit Reports
 
@@ -22,3 +22,14 @@ This repository contains my smart contract security audit reports for DeFi proje
 - [MEV Boost Relay Allowlist](./reports/Lido%20MEV%20Boost%20Relay%20Allowlist.md)
 - [TRP Vesting Escrow](./reports/Lido%20TRPVestingEscrow.md)
 - [Yearn veYFI](./reports/YearnVeYFI.md)
+
+## Finding Severity Breakdown
+
+Each vulnerability discovered during the audit is classified based on their severity and likelihood and have the following classification:
+
+| Severity | Description |
+| --- | --- |
+| Critical | Bugs leading to assets theft, funds locking, or any other issues that lead to fund loss. |
+| High | Bugs that break contract core logic or lead to the contract state corruption, or any bugs that require manual recovery. |
+| Medium | Bugs leading to partial failure of the contract minor logic under specific conditions or significant gas optimizations. |
+| Informational | Bugs, suggestions, or optimizations that do not have a significant impact in terms of contract security. |
